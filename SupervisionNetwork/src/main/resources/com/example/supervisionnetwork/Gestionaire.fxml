@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="401.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supervisionnetwork.Gestionaire">
+   <children>
+      <Pane layoutX="-2.0" layoutY="-1.0" prefHeight="529.0" prefWidth="774.0">
+         <children>
+            <Label layoutX="208.0" layoutY="152.0" prefHeight="134.0" prefWidth="421.0" text="INTERFACE DU GESTIONAIRE" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <MenuButton ellipsisString="Ajouter Machine" layoutX="223.0" layoutY="85.0" mnemonicParsing="false" text="MenuButton">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <Pane layoutX="-36.0" layoutY="131.0" prefHeight="33.0" prefWidth="771.0">
+               <children>
+                  <Button layoutY="-4.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="95.0" text="Button" />
+                  <Button layoutX="95.0" layoutY="-4.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="95.0" text="Button" />
+                  <Button layoutX="190.0" layoutY="-4.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="95.0" text="Button" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
